@@ -1,0 +1,1 @@
+# fire_detection_YOLOv8
