@@ -19,7 +19,7 @@ while True:
             conf = box.conf[0]
             conf = math.ceil(conf*100)
 
-            if conf>20:
+            if conf>0:
                 x1,y1,x2,y2 =box.xyxy[0]
                 x1,y1,x2,y2 = int(x1), int(y1), int(x2), int(y2)
                 # names = box.cls[0]
